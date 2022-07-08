@@ -17,7 +17,7 @@ function Details() {
         });
     };
     getBook();
-  }, []);
+  }, [id]);
   const regex = /(<([^>]+)>)/gi;
 
 
